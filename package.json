@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0 <23.0.0"
   },
   "keywords": [],
   "author": "",
