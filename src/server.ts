@@ -5,7 +5,7 @@ import express from "express";
 import cors from "cors";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { initDb } from "./database";
+import { initDb } from "./database.js";
 
 const app = express();
 
